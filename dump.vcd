@@ -1,0 +1,417 @@
+$date
+	Sun Sep  9 23:34:51 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testCPU $end
+$var wire 2 ! ack [1:0] $end
+$var wire 2 " dadoPeriferico [1:0] $end
+$var wire 2 # dadoT [1:0] $end
+$var wire 2 $ send [1:0] $end
+$var reg 1 % clock $end
+$var reg 2 & dadoCPU [1:0] $end
+$var reg 1 ' reset $end
+$scope module uutcpu $end
+$var wire 1 ( clock $end
+$var wire 2 ) dadoCPU [1:0] $end
+$var wire 1 * reset $end
+$var reg 2 + ack [1:0] $end
+$var reg 2 , dadoT [1:0] $end
+$var reg 2 - nextState [1:0] $end
+$var reg 2 . send [1:0] $end
+$var reg 2 / state [1:0] $end
+$upscope $end
+$scope module uutper $end
+$var wire 1 ( clock $end
+$var wire 2 0 dadoT [1:0] $end
+$var wire 1 * reset $end
+$var reg 2 1 ack [1:0] $end
+$var reg 2 2 dadoPeriferico [1:0] $end
+$var reg 2 3 nextState [1:0] $end
+$var reg 2 4 send [1:0] $end
+$var reg 2 5 state [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 5
+bx 4
+bx 3
+b0 2
+b1 1
+b0 0
+bx /
+b1 .
+b0x -
+b0 ,
+bx +
+1*
+b0 )
+0(
+1'
+b0 &
+0%
+bx $
+b0 #
+b0 "
+bx !
+$end
+#5000
+b0 .
+b1 -
+b0 1
+b1 3
+b0 /
+b0 5
+1%
+1(
+#10000
+0%
+0(
+#15000
+1%
+1(
+#20000
+0%
+0(
+#25000
+1%
+1(
+#30000
+0%
+0(
+#35000
+1%
+1(
+#40000
+0%
+0(
+#45000
+1%
+1(
+#50000
+0%
+0(
+#55000
+1%
+1(
+#60000
+0%
+0(
+#65000
+1%
+1(
+#70000
+0%
+0(
+#75000
+1%
+1(
+#80000
+0%
+0(
+#85000
+1%
+1(
+#90000
+0%
+0(
+#95000
+1%
+1(
+#100000
+0%
+0(
+0'
+0*
+#105000
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#110000
+0%
+0(
+#115000
+b0 1
+b1 3
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#120000
+0%
+0(
+#125000
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#130000
+0%
+0(
+#135000
+b0 1
+b1 3
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#140000
+0%
+0(
+#145000
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#150000
+0%
+0(
+#155000
+b0 1
+b1 3
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#160000
+0%
+0(
+#165000
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#170000
+0%
+0(
+#175000
+b0 1
+b1 3
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#180000
+0%
+0(
+#185000
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#190000
+0%
+0(
+#195000
+b0 1
+b1 3
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#200000
+0%
+0(
+b1 &
+b1 )
+#205000
+b1 2
+b1 "
+b1 ,
+b1 #
+b1 0
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#210000
+0%
+0(
+#215000
+b0 2
+b0 "
+b0 1
+b1 3
+b0 ,
+b0 #
+b0 0
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#220000
+0%
+0(
+#225000
+b1 2
+b1 "
+b1 ,
+b1 #
+b1 0
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#230000
+0%
+0(
+#235000
+b0 2
+b0 "
+b0 1
+b1 3
+b0 ,
+b0 #
+b0 0
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#240000
+0%
+0(
+#245000
+b1 2
+b1 "
+b1 ,
+b1 #
+b1 0
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#250000
+b0 2
+b0 "
+b0 ,
+b0 #
+b0 0
+0%
+0(
+b0 &
+b0 )
+#255000
+b0 1
+b1 3
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#260000
+0%
+0(
+b1 &
+b1 )
+#265000
+b1 2
+b1 "
+b1 ,
+b1 #
+b1 0
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#270000
+0%
+0(
+#275000
+b0 2
+b0 "
+b0 1
+b1 3
+b0 ,
+b0 #
+b0 0
+b0 .
+b1 -
+b0 5
+b0 /
+1%
+1(
+#280000
+0%
+0(
+#285000
+b1 2
+b1 "
+b1 ,
+b1 #
+b1 0
+b1 .
+b0 -
+b1 1
+b0 3
+b1 /
+b1 5
+1%
+1(
+#290000
+b0 2
+b0 "
+b0 ,
+b0 #
+b0 0
+0%
+0(
+b0 &
+b0 )
